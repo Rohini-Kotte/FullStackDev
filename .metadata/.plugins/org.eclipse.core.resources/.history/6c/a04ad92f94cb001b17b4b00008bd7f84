@@ -1,0 +1,19 @@
+package exercises;
+
+public class P2FindVowels {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int count=0;
+		String str=args[0].toLowerCase();
+		for(char each:str.toCharArray()) {
+			
+			if(each=='a' ||each=='e'||each=='i'||each=='o'||each=='u') {
+				count++;
+			}
+			
+		}
+
+	}
+
+}

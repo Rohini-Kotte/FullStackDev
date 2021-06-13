@@ -1,0 +1,11 @@
+package exercises;
+
+public class P15UniqueCharacter {
+//	Display unique characters in a string. input:"helloworld" output:"helowrd"
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

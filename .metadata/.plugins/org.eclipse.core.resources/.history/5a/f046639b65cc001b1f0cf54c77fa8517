@@ -1,0 +1,16 @@
+package exercises;
+
+public class P6ArrayToString {
+
+	public static void main(String[] args) {
+		String[] arr= {"Vikas","Lpkesh","Ashok"};
+
+		StringBuilder sb=new StringBuilder();
+		for(String each:arr) {
+			sb=sb.append(each);
+			sb.append(",");
+		}
+		
+	}
+
+}

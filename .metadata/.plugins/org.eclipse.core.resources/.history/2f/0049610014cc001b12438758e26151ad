@@ -1,0 +1,12 @@
+package june13;
+
+public class ScienceBook extends Book {
+
+	int id=12;
+	String name="scienceBook";
+	
+	void read() {
+		System.out.println("Reading a Science Book");
+	}
+
+}

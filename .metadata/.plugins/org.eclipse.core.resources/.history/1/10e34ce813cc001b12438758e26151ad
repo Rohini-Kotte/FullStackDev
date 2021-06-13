@@ -1,0 +1,8 @@
+package june13;
+
+public class ScienceBook extends Book {
+
+	int id=12;
+	String name="scienceBook";
+
+}

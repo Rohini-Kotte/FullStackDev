@@ -1,0 +1,20 @@
+package exercises;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class P15UniqueCharacter {
+//	Display unique characters in a string. input:"helloworld" output:"helowrd"
+	
+	public static void main(String[] args) {
+
+		String str="helloworld";
+		Set<Character> set=new HashSet<Character>();
+		
+		for(char each:str.toCharArray()) {
+			set.add(each);
+		}
+		System.out.println(set);
+	}
+
+}

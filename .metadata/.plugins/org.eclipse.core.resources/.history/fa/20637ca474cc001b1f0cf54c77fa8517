@@ -1,0 +1,31 @@
+package exercises;
+
+public class P13DecimalToBinary {
+
+	public static void main(String[] args) {
+
+		int num=12;
+		String binary="";
+		
+		while(num>0) {
+			int i=num%2;
+			num=num/2;
+			binary=binary+i;
+			
+		}
+		int decimal=12;
+		 int bin[] = new int[40];    
+	     int index = 0;    
+	     while(decimal > 0){    
+	       bin[index++] = decimal%2;    
+	       decimal = decimal/2;    
+	     } 
+		
+		System.out.println("Binary number: "+bin);
+		System.out.println(Integer.toBinaryString(num));
+		for(int each:bin) {
+			System.out.print(each);
+		}
+	}
+
+}

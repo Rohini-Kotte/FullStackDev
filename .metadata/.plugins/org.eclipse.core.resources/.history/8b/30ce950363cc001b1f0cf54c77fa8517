@@ -1,0 +1,15 @@
+package exercises;
+
+public class P5SumOfDigitsInArray {
+
+	public static void main(String[] args) {
+
+		
+		String[] arr= {"2AA","12","ABC","c1a"};
+		for(String each:arr) {
+			String temp=each.replace("[a-bA-z]", "");
+			System.out.println(temp);
+		}
+	}
+
+}

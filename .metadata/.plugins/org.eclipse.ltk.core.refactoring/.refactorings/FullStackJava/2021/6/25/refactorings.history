@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;bk&apos; in &apos;june13.BookTest.main(...)&apos; to &apos;fr&apos;&#x0D;&#x0A;- Original project: &apos;FullStackJava&apos;&#x0D;&#x0A;- Original element: &apos;june13.BookTest.main(String[]).bk&apos;&#x0D;&#x0A;- Renamed element: &apos;bk&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;bk&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;june13{BookTest.java[BookTest~main~\[QString;@bk!896!903!901!902!QBook;!0!false" name="fr" references="true" stamp="1623568087934" version="1.0"/>
+</session>

@@ -1,0 +1,12 @@
+package june13;
+
+public class Book {
+	int id=0;
+	String name="undefined";
+	
+	void read() {
+		System.out.println("Im reading a Book");
+	}
+			
+
+}

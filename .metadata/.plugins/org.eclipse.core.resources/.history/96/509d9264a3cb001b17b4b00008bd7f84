@@ -1,0 +1,22 @@
+package exercises;
+
+public class P4FindNoOfWordsForGiven {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String[] arr= {"aa","bb","c","ddd"};
+		int n=3;
+		int count=0;
+
+		for (String each : arr) {
+			if(n==each.length()) {
+				count++;
+			}
+
+		}
+
+		System.out.println("Output: "+count);
+	}
+
+}
