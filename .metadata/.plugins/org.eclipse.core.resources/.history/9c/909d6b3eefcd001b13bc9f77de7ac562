@@ -1,0 +1,24 @@
+package week2_exercises;
+
+public class P17Encryption {
+
+	void encrytData(String input) {
+		StringBuilder sb=new StringBuilder();
+		for(int i=0;i<input.length();i++) {
+			if(i%2==0) {
+				sb=sb.append(input.charAt(i));
+			}
+			else {
+				sb=sb.append(input.charAt(i));
+			}
+		}
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

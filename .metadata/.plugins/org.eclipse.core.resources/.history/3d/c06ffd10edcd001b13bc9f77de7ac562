@@ -1,0 +1,23 @@
+package week2_exercises;
+
+public class P16TwoStringInputs {
+
+	void modifyFirstString(String input1, String input2) {
+		StringBuilder bs = new StringBuilder();
+		char[] arr = input1.toCharArray();
+		for (char each : arr) {
+			if (input2.contains(String.valueOf(each))) {
+				bs = bs.append(each);
+			} else {
+				bs = bs.append("+");
+			}
+		}
+System.out.println(bs);
+	}
+
+	public static void main(String[] args) {
+		P16TwoStringInputs obj = new P16TwoStringInputs();
+		obj.modifyFirstString("New York", "New Jersy");
+	}
+
+}

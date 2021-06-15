@@ -1,0 +1,24 @@
+package week2_exercises;
+
+public class P17Encryption {
+
+	void encrytData(String input) {
+		StringBuilder sb=new StringBuilder();
+		for(int i=0;i<input.length();i++) {
+			if(i%2==0) {
+				sb=sb.append(input.codePointAt(i+1));
+			}
+			else {
+				sb=sb.append(input.charAt(i));
+			}
+		}
+		System.out.println(sb);
+		
+	}
+	
+	public static void main(String[] args) {
+		P17Encryption obj=new P17Encryption();
+		obj.encrytData("curiosity");
+	}
+
+}
