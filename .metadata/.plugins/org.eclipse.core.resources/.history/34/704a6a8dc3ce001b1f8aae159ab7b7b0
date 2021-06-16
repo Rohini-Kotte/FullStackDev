@@ -1,0 +1,23 @@
+package week2_exercises;
+
+public class P25DiscountCal {
+	
+	/*
+	 * Discount Calculation Calculate the discount based on the price of two items
+	 * and the overall discount percentage. Input Format: a. Item 1 price as
+	 * floating point b. Item 2 price as floating point c. Discount as integer
+	 * Output Format: a. Total of Item 1 and Item 2 b. Price after discount (correct
+	 * to 2 decimal places) c. Amount discounted (correct to 2 decimal places)
+	 * Sample Input and Output Format: Price of item 1 : 20.50 Price of item 2 :
+	 * 45.40 Discount in percentage : 10 Total amount : $65.90 Discounted amount :
+	 * $59.31 Saved amount : $6.59
+	 */
+	
+	public static void main(String[] args) {
+
+		
+		
+		
+	}
+
+}
