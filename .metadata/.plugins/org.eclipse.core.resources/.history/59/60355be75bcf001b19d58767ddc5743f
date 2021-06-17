@@ -1,0 +1,26 @@
+package week2_exercises;
+
+import java.util.Scanner;
+
+public class P27Relate2Integers {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the first number: ");
+		int n1 = scan.nextInt();
+
+		System.out.println("Enter the second number: ");
+		int n2 = scan.nextInt();
+
+		if (n1 < n2) {
+			System.out.println(n1 + " is less than " + n2);
+		} else if (n1 > n2) {
+			System.out.println(n1 + " is greater than " + n2);
+		} else {
+			System.out.println(n1 + " is equal to " + n2);
+		}
+
+	}
+
+}

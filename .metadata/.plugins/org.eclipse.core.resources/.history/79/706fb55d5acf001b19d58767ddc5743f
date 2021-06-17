@@ -1,0 +1,10 @@
+package week2_exercises;
+
+public class P26MinimalSeatCapacity {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

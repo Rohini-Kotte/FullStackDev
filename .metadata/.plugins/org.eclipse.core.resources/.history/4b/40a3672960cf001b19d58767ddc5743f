@@ -1,0 +1,18 @@
+package week2_exercises;
+
+import java.util.Scanner;
+
+public class P30DayWeekArray {
+
+	public static void main(String[] args) {
+
+		String[] arr= {"Sun","Mon","Tue","Wed","Thur","Fri","Sat"};
+		
+		Scanner scan =new Scanner(System.in);
+		
+		System.out.println("Enter the day number: ");
+	int i=scan.nextInt();
+	System.out.println("Day of the week: "+arr[i-1]);
+	}
+
+}

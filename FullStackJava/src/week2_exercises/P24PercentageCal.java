@@ -19,7 +19,19 @@ public class P24PercentageCal {
 	 * Sam's profit percentage is 5.60 percent
 	 */
 
-	double profitCal(int toysInDozen, int ratePerD, int sellPriceToy) {
+	
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter no of Dozens of Toy purchased ");
+		int toysInDozen = scan.nextInt();
+
+		System.out.println("Enter purchased rate for dozen of toys: ");
+		int ratePerD = scan.nextInt();
+
+		System.out.println("Enter selling price of each toy ");
+		int sellPriceToy = scan.nextInt();
+
 		double profitPercentage = 0;
 		double eachPrice = ratePerD / 12.0;
 
@@ -27,26 +39,7 @@ public class P24PercentageCal {
 
 		profitPercentage = (profit / eachPrice) * 100.0;
 
-		return profitPercentage;
-	}
-
-	public static void main(String[] args) {
-
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter no of Dozens of Toy purchased ");
-		int x = scan.nextInt();
-
-		System.out.println("Enter purchased rate for dozen of toys: ");
-		int y = scan.nextInt();
-
-		System.out.println("Enter selling price of each toy ");
-		int z = scan.nextInt();
-
-		P24PercentageCal obj = new P24PercentageCal();
-
-		String percent = String.format("%.2f", obj.profitCal(x, y, z));
-
-		System.out.println("Profit percentage: " + percent);
+		System.out.println("Profit percentage: " + String.format("%.2f", profitPercentage));
 
 	}
 

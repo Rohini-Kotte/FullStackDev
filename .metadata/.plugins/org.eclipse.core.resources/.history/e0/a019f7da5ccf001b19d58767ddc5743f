@@ -1,0 +1,24 @@
+package week2_exercises;
+
+import java.util.Scanner;
+
+public class P28SecureURLValidation {
+
+	public static void main(String[] args) {
+
+		Scanner scan =new Scanner(System.in);
+		System.out.println("Enter the string "); 
+		String input=scan.next();
+		
+		if(input.substring(0,7).equalsIgnoreCase("https:")) {
+			System.out.println("String starts with https. Its a secure url");
+		}
+		else if(input.substring(0,6).equalsIgnoreCase("http:")) {
+			System.out.println("String does not starts with https. Its not a secure url");
+		}
+		else {
+			System.out.println("Enter a valid url");
+		}
+	}
+
+}
