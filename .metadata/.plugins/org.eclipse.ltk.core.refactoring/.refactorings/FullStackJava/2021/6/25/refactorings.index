@@ -1,3 +1,14 @@
 1623568087934	Rename local variable 'bk'
 1623610084920	Rename package 'exercises'
 1623934266715	Copy compilation unit
+1623938583879	Rename type 'P37TraineeDetails'
+1623939889715	Rename type 'P37Trainee'
+1623939914149	Rename type 'P37TraineeMainClass'
+1623940490849	Rename type 'P36ProductGetSetter'
+1623940506827	Rename type 'P36ProductMainClass'
+1623940524162	Rename type 'P36ProductConstructMain'
+1623940560101	Rename type 'P37ProductConstructMain'
+1623943901658	Rename type 'P36ProductConstructMain'
+1623943912738	Rename type 'P36ProductConstructor'
+1623943961243	Copy compilation unit
+1623944242264	Copy compilation unit

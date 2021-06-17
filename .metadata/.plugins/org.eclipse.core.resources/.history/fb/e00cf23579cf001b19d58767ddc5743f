@@ -1,0 +1,13 @@
+package week2_exercises;
+
+public class P36ProductMainClass {
+
+	public static void main(String[] args) {
+
+		P36ProductConstructor obj = new P36ProductConstructor(1, "Printer", "HP");
+
+		obj.display();
+
+	}
+
+}

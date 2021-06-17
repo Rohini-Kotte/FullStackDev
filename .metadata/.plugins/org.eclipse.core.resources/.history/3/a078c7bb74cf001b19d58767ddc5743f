@@ -1,0 +1,10 @@
+package week2_exercises;
+
+public class P37TraineeDetails {
+
+	
+	private final static String BATCH_CODE="CHNFSD";
+	
+	
+	
+}
