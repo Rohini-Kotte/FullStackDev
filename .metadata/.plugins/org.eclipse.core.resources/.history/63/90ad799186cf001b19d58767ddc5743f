@@ -1,0 +1,34 @@
+package week2_exercises;
+
+public class P39AccountTxn {
+
+	private String accountNumber;
+	private int balance;
+
+	P39AccountTxn() {
+
+	}
+
+	public int getBalance() {
+		return balance;
+	}
+
+	public void deposit(int transactionAmount) {
+		balance = balance + transactionAmount;
+	}
+
+	public void withdraw(int transactionAmount) {
+		if (transactionAmount <= balance) {
+			balance = balance - transactionAmount;
+		}
+		if (transactionAmount > balance) {
+			System.out.println("insufficient balance when the balance is about to go below zero");
+		}
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}
